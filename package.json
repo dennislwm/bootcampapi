@@ -1,0 +1,27 @@
+{
+  "name": "07bootcampapi",
+  "version": "1.0.0",
+  "description": "Content Backend for a Bootcamp Directory App",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "SET ENV_MODE=production&& node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dennislwm/bootcampapi.git"
+  },
+  "author": "Dennis Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dennislwm/bootcampapi/issues"
+  },
+  "homepage": "https://github.com/dennislwm/bootcampapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
